@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="commandlineparser" Version="2.9.1" />
+    <PackageReference Include="consoletables" Version="2.4.2" />
+    <PackageReference Include="mediatr" Version="10.0.1" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
+    <PackageReference Include="microsoft.extensions.dependencyinjection" Version="6.0.0" />
+    <PackageReference Include="refit" Version="6.3.2" />
+    <PackageReference Include="scrutor" Version="4.2.0" />
+  </ItemGroup>
+
+</Project>
